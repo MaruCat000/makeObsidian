@@ -1,0 +1,26 @@
+{
+  "nodes": [
+    {
+      "id": "Java",
+      "group": 1
+    },
+    {
+      "id": "Python",
+      "group": 1
+    },
+    {
+      "id": "JavaScript",
+      "group": 2
+    }
+  ],
+  "links": [
+    {
+      "source": "Java",
+      "target": "Python"
+    },
+    {
+      "source": "Python",
+      "target": "JavaScript"
+    }
+  ]
+}
